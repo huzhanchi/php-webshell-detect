@@ -13,7 +13,7 @@
    * [Flow Definition](#flow-definition)
    * [What Happens with Unmocked Functions](#what-happens-with-unmocked-functions)
    * [Pitfalls to Work around](#pitfalls-to-work-around)
-   * [TODO](#todo)
+- [TODO](#todo)
 
 
 # Intro
