@@ -1,4 +1,18 @@
-__TOC__
+- [Intro](#intro)
+- [Implemented components](#implemented-components)
+- [Taint Analysis](#taint-analysis)
+   * [Context-Sensitive Types](#context-sensitive-types)
+   * [Propagation Categories](#propagation-categories)
+   * [Assignment Classification](#assignment-classification)
+   * [Detection Process](#detection-process)
+   * [Core Solve Algorithm](#core-solve-algorithm)
+- [Strategy](#strategy)
+   * [Taint Analyze](#taint-analyze)
+   * [Flow Definition](#flow-definition)
+   * [What Happens with Unmocked Functions](#what-happens-with-unmocked-functions)
+   * [Pitfalls to Work around](#pitfalls-to-work-around)
+   * [TODO](#todo)
+   
 
 # Intro
 
