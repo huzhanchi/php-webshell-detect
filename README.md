@@ -1,3 +1,5 @@
+# Table of Contents
+
 - [Intro](#intro)
 - [Implemented components](#implemented-components)
 - [Taint Analysis](#taint-analysis)
@@ -12,7 +14,7 @@
    * [What Happens with Unmocked Functions](#what-happens-with-unmocked-functions)
    * [Pitfalls to Work around](#pitfalls-to-work-around)
    * [TODO](#todo)
-   
+
 
 # Intro
 
@@ -98,8 +100,7 @@ time="2024-02-16T14:49:50+07:00" level=debug msg="[%temp2_6=shell_exec(%temp2_17
   Expressions and statements, with language-specific metadata.
 
 # Taint Analysis
-
-P/Taint is a novel analysis technique that integrates taint propagation with pointer analysis (or alias analysis) as a whole. For more details, see [P/Taint](https://dl.acm.org/doi/pdf/10.1145/3133926).
+This solution is highly inspired by [Tai-e framework](https://github.com/pascal-lab/Tai-e), which is a new framework based on the latest reserchwork (until now 2023), and also Tai-e give a improvments conbined with P/Taint algorithm. P/Taint is a novel analysis technique that integrates taint propagation with pointer analysis (or alias analysis) as a whole. For more details, see [P/Taint](https://dl.acm.org/doi/pdf/10.1145/3133926).
 
 ## Context-Sensitive Types
 
